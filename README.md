@@ -1,4 +1,4 @@
-# HeadFirstC--2023
+# HeadFirstCSharp--2023
 Book review of the Head First C# 2023
 
 This project is extension of my youtube series about book review head first C# latest version !
