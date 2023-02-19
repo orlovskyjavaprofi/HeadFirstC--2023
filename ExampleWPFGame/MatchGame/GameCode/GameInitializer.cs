@@ -8,5 +8,11 @@ namespace MatchGame.GameCode
 {
     public class GameInitializer
     {
+        public void SetUpGame()
+        {
+            throw new NotImplementedException();
+        }
     }
+
+  
 }

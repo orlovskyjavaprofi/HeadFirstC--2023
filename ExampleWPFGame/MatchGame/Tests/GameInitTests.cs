@@ -1,6 +1,7 @@
 ﻿
 using MatchGame.GameCode;
 using NUnit.Framework;
+using System;
 
 namespace MatchGame.Tests
 {
@@ -19,6 +20,13 @@ namespace MatchGame.Tests
         public void creationOfProgramObjTest()
         {
             Assert.NotNull(gameInitObj);
+            
+        }
+
+        [Test]
+        public void expectNotImplementedExceptionTest()
+        {
+            Assert.Throws<NotImplementedException>(() => gameInitObj.SetUpGame());
         }
 
     }

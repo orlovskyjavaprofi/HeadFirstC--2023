@@ -62,7 +62,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="GameCode\Class1.cs" />
+    <Compile Include="GameCode\GameInitializer.cs" />
     <Compile Include="Tests\GameInitTests.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
