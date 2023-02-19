@@ -19,7 +19,7 @@ namespace HeadFirstCSharpWorkshop.Code
         public String OutputHelleoWorld()
         {
             this.Message = "Hello World!";
-            return "Hello World!";
+            return this.Message;
         }
     }
 }
