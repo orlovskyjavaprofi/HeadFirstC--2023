@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MatchGame.GameCode;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,12 @@ namespace MatchGame
     /// </summary>
     public partial class MainWindow : Window
     {
+        private GameInitializer gameInit;
         public MainWindow()
         {
             InitializeComponent();
+            gameInit = new GameInitializer();
+            gameInit.SetUpGame();
         }
     }
 }

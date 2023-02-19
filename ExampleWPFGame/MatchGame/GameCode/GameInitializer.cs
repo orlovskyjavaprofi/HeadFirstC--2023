@@ -8,9 +8,11 @@ namespace MatchGame.GameCode
 {
     public class GameInitializer
     {
-        public void SetUpGame()
+        public List<string> SetUpGame()
         {
-            throw new NotImplementedException();
+            List<string> animalEmoji = new List<string>();
+
+            return animalEmoji;
         }
     }
 

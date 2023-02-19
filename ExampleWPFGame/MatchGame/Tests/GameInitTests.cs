@@ -24,9 +24,9 @@ namespace MatchGame.Tests
         }
 
         [Test]
-        public void expectNotImplementedExceptionTest()
+        public void expectThatGameInitCreateListOfStringsTest()
         {
-            Assert.Throws<NotImplementedException>(() => gameInitObj.SetUpGame());
+            Assert.NotNull(gameInitObj.SetUpGame());
         }
 
     }
