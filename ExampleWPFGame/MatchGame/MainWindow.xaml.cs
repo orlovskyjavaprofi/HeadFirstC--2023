@@ -26,7 +26,20 @@ namespace MatchGame
         {
             InitializeComponent();
             gameInit = new GameInitializer();
-            gameInit.SetUpGame();
+            this.displayEmojis(gameInit.SetUpGame());
+        }
+
+        private void displayEmojis(List<string> listofEmojis)
+        {
+            Random random = new Random();
+
+            foreach(TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
+            {
+                int index = random.Next(listofEmojis.Count);
+                string nextEmoji = listofEmojis[index];
+                textBlock.Text = nextEmoji;
+                listofEmojis.RemoveAt(index);
+            }
         }
     }
 }

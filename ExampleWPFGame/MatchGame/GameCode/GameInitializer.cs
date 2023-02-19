@@ -10,7 +10,18 @@ namespace MatchGame.GameCode
     {
         public List<string> SetUpGame()
         {
-            List<string> animalEmoji = new List<string>();
+            List<string> animalEmoji = new List<string>()
+            {
+                "🐙","🐙",
+                "🐟","🐟",
+                "🐘","🐘",
+                "🐳","🐳",
+                "🐪","🐪",
+                "🦕","🦕",
+                "🦘","🦘",
+                "🐿","🐿"
+            };
+
 
             return animalEmoji;
         }
