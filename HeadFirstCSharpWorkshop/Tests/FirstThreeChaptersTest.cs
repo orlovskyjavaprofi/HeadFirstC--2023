@@ -17,5 +17,11 @@ namespace HeadFirstCSharpWorkshop.Tests
         {
             Assert.NotNull(programObj);
         }
+
+        [Test]
+        public void verifyStringOutputTest()
+        {
+            Assert.AreEqual("Hello World!", programObj.OutputHelleoWorld());
+        }
     }
 }

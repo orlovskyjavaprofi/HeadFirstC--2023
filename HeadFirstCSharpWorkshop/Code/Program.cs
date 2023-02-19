@@ -1,12 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace HeadFirstCSharpWorkshop.Code
 {
     public class Program
     {
+        private String Message;
+
+        public Program() {
+            this.Message = OutputHelleoWorld();
+        }
+        static void Main(string[] args)
+        {
+            Program programObj = new Program();
+            Console.WriteLine(programObj.Message);
+        }
+        public String OutputHelleoWorld()
+        {
+            this.Message = "Hello World!";
+            return "Hello World!";
+        }
     }
 }
