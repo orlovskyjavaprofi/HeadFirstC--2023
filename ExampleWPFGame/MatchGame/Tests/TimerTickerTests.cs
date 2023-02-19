@@ -23,5 +23,20 @@ namespace MatchGame.Tests
         {
             Assert.NotNull(gameTimerObj);
         }
+
+        [Test]
+        public void expectToReceiveATimerTickTest()
+        {
+            Assert.NotNull(gameTimerObj.getTimerTick());
+        }
+
+        [Test]
+        public void expectToStopTimer()
+        {
+            String message = "Stop timer";
+
+            Assert.True(gameTimerObj.stopTimer(message));
+        }
+
     }
 }

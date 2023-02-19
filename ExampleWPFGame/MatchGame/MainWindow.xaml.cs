@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MatchGame
 {
@@ -22,6 +23,8 @@ namespace MatchGame
     public partial class MainWindow : Window
     {
         private GameInitializer gameInit;
+        private int matchesFound;
+        private GameTimer gameTimer;
 
         TextBlock lastTextBlockClicked;
         bool findingMatch = false;
@@ -30,6 +33,9 @@ namespace MatchGame
             InitializeComponent();
             gameInit = new GameInitializer();
             this.displayEmojis(gameInit.SetUpGame());
+            gameTimer = new GameTimer();
+            matchesFound = 0;
+            this.timerTextBlockUpdateDisplay();
         }
 
         private void displayEmojis(List<string> listofEmojis)
@@ -38,33 +44,63 @@ namespace MatchGame
 
             foreach(TextBlock textBlock in mainGrid.Children.OfType<TextBlock>())
             {
-                int index = random.Next(listofEmojis.Count);
-                string nextEmoji = listofEmojis[index];
-                textBlock.Text = nextEmoji;
-                listofEmojis.RemoveAt(index);
+                if(textBlock.Name != "timeTextBlock") {
+                    textBlock.Visibility = Visibility.Visible;
+                    int index = random.Next(listofEmojis.Count);
+                    string nextEmoji = listofEmojis[index];
+                    textBlock.Text = nextEmoji;
+                    listofEmojis.RemoveAt(index);
+                }
             }
         }
 
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TextBlock textBlock = sender as TextBlock;
+            
             if (findingMatch == false)
             {
                 textBlock.Visibility = Visibility.Hidden;
                 lastTextBlockClicked = textBlock;
                 findingMatch = true;
+                this.timerTextBlockUpdateDisplay();
+
             }
             else if (textBlock.Text == lastTextBlockClicked.Text)
             {
+                matchesFound++;
                 textBlock.Visibility = Visibility.Hidden;
                 findingMatch = false;
+                this.timerTextBlockUpdateDisplay();
             }
             else
             {
                 lastTextBlockClicked.Visibility = Visibility.Visible;
                 findingMatch = false;
+                this.timerTextBlockUpdateDisplay();
             }
 
         }
+
+        private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if(matchesFound == 8)
+            {
+                this.displayEmojis(gameInit.SetUpGame());
+            }
+        }
+
+        private void timerTextBlockUpdateDisplay()
+        {
+            int timerSecondsElapsed = gameTimer.getTimerTick();
+            timeTextBlock.Text = (timerSecondsElapsed / 10F).ToString("0.0s");
+            if(matchesFound == 8)
+            {
+                gameTimer.stopTimer("Stop timer");
+                timeTextBlock.Text = timeTextBlock.Text + " - Play again?";
+            }
+        }
+
+  
     }
 }
