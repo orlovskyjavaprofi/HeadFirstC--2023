@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 827.2
   m_ShowMode: 4
-  m_Title: Test Runner
+  m_Title: Scene
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 94
+  controlID: 97
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 56
+  controlID: 20
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 422.40002
     height: 517.6
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -219,14 +219,14 @@ MonoBehaviour:
     y: 518.4
     width: 1113.6
     height: 258.8
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 22}
   - {fileID: 20}
   - {fileID: 16}
-  m_Selected: 2
+  m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -484,7 +484,7 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 125
+    ID: 123
     splitterInitialOffset: 158.4
     currentActiveSplitter: -1
     realSizes:
@@ -568,7 +568,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.2631191
+      duration: 0.2173454
       messages: 
       output: 
       stacktrace: 
@@ -584,7 +584,7 @@ MonoBehaviour:
       name: EditorTests.dll
       fullName: L:/ProgrammingStuff/C#/HeadFirstCSharp2023/CODE/HeadFirstC--2023/Unity3DLab/BallGame/Library/ScriptAssemblies/EditorTests.dll
       resultStatus: 1
-      duration: 0.1650557
+      duration: 0.1392244
       messages: 
       output: 
       stacktrace: 
@@ -600,7 +600,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.1618247
+      duration: 0.1367716
       messages: 
       output: 
       stacktrace: 
@@ -616,7 +616,7 @@ MonoBehaviour:
       name: Tests
       fullName: BallGame.Tests
       resultStatus: 1
-      duration: 0.1601483
+      duration: 0.1345335
       messages: 
       output: 
       stacktrace: 
@@ -632,7 +632,7 @@ MonoBehaviour:
       name: OneBallBehaviourTest
       fullName: BallGame.Tests.OneBallBehaviourTest
       resultStatus: 1
-      duration: 0.1530633
+      duration: 0.1271673
       messages: 
       output: 
       stacktrace: 
@@ -643,12 +643,12 @@ MonoBehaviour:
       categories: []
       parentId: 1005
       parentUniqueId: EditorTests.dll/BallGame/[EditorTests][BallGame.Tests][suite]
-    - id: 1002
-      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest]
-      name: checkIfOneBallBehaviourObjCanBeCreatedTest
-      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest
+    - id: 1006
+      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfDegreesPerSecondIsInitiated]
+      name: checkIfDegreesPerSecondIsInitiated
+      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfDegreesPerSecondIsInitiated
       resultStatus: 1
-      duration: 0.073324
+      duration: 0.0591375
       messages: 
       output: 
       stacktrace: 
@@ -660,13 +660,81 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
-    m_ResultText: BallGame (0,263s)
+    - id: 1002
+      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest]
+      name: checkIfOneBallBehaviourObjCanBeCreatedTest
+      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest
+      resultStatus: 1
+      duration: 0.0094053
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
+    - id: 1003
+      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfXRotationIsInitiated]
+      name: checkIfXRotationIsInitiated
+      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfXRotationIsInitiated
+      resultStatus: 1
+      duration: 0.0005309
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
+    - id: 1004
+      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfYRotationIsInitiated]
+      name: checkIfYRotationIsInitiated
+      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfYRotationIsInitiated
+      resultStatus: 1
+      duration: 0.0004654
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
+    - id: 1005
+      uniqueId: EditorTests.dll/BallGame/Tests/OneBallBehaviourTest/[EditorTests][BallGame.Tests.OneBallBehaviourTest.checkIfZRotationIsInitiated]
+      name: checkIfZRotationIsInitiated
+      fullName: BallGame.Tests.OneBallBehaviourTest.checkIfZRotationIsInitiated
+      resultStatus: 1
+      duration: 0.0006449
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
+    m_ResultText: OneBallBehaviourTest (0,127s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7fc0388b
-      m_LastClickedID: -1959214977
-      m_ExpandedIDs: dd106e848bddd9877fc0388b95a1f28b3fd4c58df5e535964a3989a0c75d84b1c1c181c91520f8dc00342be2e557abf7be413a11e98ff9244fe3033b1f33c3436edb724c5620147c03ce867fffffff7f
+      scrollPos: {x: 0, y: 74}
+      m_SelectedIDs: b9bcc242
+      m_LastClickedID: 1120058553
+      m_ExpandedIDs: dd106e848bddd9877fc0388b95a1f28b3fd4c58df5e535964a3989a0c75d84b1c1c181c91520f8dc00342be2e557abf7be413a11e98ff9244fe3033bb9bcc2421f33c3436edb724c5620147c03ce867fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -773,7 +841,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests/EditorTests
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -788,7 +856,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7aab0300
     m_LastClickedID: 240506
-    m_ExpandedIDs: 00000000e0580000
+    m_ExpandedIDs: 00000000f0580000f2580000f4580000f6580000f8580000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -813,10 +881,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 31.399963}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000e058000008590000125900001659000020590000
+    m_ExpandedIDs: ffffffff00000000f0580000f2580000f4580000f6580000f85800001a590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -913,7 +981,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 263.6
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -956,9 +1024,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0a5c0000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d8dcffffcedeffff2cfbffff
+      m_SelectedIDs: da590000
+      m_LastClickedID: 23002
+      m_ExpandedIDs: d2e1ffff0ce2ffff00e6ffffa2e8ffff58eaffff2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1059,9 +1127,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -241.59998, y: 0}
+      snapOffset: {x: -553.6, y: -497.59998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 1
+      snapCorner: 3
       id: unity-search-toolbar
       index: 1
       layout: 1
@@ -1110,7 +1178,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 0
+      displayed: 1
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1299,9 +1367,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 0, y: 1, z: -10}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0, y: 1, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1347,13 +1415,13 @@ MonoBehaviour:
     m_GridAxis: 0
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: -0.090158254, y: 0.30359364, z: -0.028870894, w: -0.9480945}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: -0.08811234, y: 0.27509373, z: -0.025328187, w: -0.9570362}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 12.124355
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2
