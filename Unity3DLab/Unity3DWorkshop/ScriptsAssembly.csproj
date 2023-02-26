@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallBehaviour.cs" />
+    <Compile Include="Assets\Scripts\BallBehaviourController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\ScriptsAssembly.asmdef" />

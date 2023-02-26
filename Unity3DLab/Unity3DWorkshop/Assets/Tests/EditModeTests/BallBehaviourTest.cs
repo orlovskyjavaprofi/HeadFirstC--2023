@@ -21,6 +21,28 @@ namespace Unity3DWorkshop.Tests
             Assert.NotNull(ballBehaviourObj);
         }
 
+        [Test]
+        public void checkIfInitialXRotationSetUp()
+        {
+            Assert.AreEqual(0, ballBehaviourObj.getXRotation());
+        }
 
+        [Test]
+        public void checkIfInitialYRotationSetUp()
+        {
+            Assert.AreEqual(0, ballBehaviourObj.getYRotation());
+        }
+
+        [Test]
+        public void checkIfInitialZRotationSetUp()
+        {
+            Assert.AreEqual(0, ballBehaviourObj.getZRotation());
+        }
+
+        [Test]
+        public void checkIfInitialDegreePerSecond()
+        {
+            Assert.AreEqual(180, ballBehaviourObj.getDegreesPerSecond());
+        }
     }
 }
