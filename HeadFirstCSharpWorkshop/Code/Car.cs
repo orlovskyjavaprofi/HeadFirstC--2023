@@ -8,5 +8,9 @@ namespace HeadFirstCSharpWorkshop.Code
 {
     public class Car : IDriveable
     {
+        public string setEnginePowerOn()
+        {
+            return "Car engine on!";
+        }
     }
 }

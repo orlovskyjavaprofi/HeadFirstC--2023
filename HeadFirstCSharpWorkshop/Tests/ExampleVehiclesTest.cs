@@ -1,26 +1,46 @@
 ﻿using HeadFirstCSharpWorkshop.Code;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HeadFirstCSharpWorkshop.Tests
 {
+    [TestFixture]
     public class ExampleVehiclesTest
     {
-        private IDriveable drivableObj;
+        private Car car;
+        private MotorBike motorBike;
 
         [SetUp]
-        public void setup()
+        public void SetUp()
         {
-            drivableObj = new Car();
+            car = new Car();
+            motorBike = new MotorBike();
         }
 
         [Test]
-        public void creationOfDriveableObjTest()
+        public void CarCreationTest()
         {
-            Assert.NotNull(drivableObj);
+            Assert.NotNull(car);
+        }
+
+        [Test]
+        public void MotorBikeCreationTest()
+        {
+            Assert.NotNull(motorBike);
+        }
+
+
+        [TestCase("Motorbike engine on!")]
+        public void setEnginePowerMotorBikeOnTest(string expectedMessage)
+        {
+
+            string motorBikeEngineMessage = motorBike.setEnginePowerOn();
+            Assert.AreEqual(expectedMessage, motorBikeEngineMessage);
+        }
+
+        [TestCase("Car engine on!")]
+        public void setEnginePowerCarOnTest(string expectedMessage)
+        {
+            string carEngineMessage = car.setEnginePowerOn();
+            Assert.AreEqual(expectedMessage, carEngineMessage);
         }
     }
 }

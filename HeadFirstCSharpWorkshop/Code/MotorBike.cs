@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace HeadFirstCSharpWorkshop.Code
 {
-    public class MotorBike
+    public class MotorBike : IDriveable
     {
+        public string setEnginePowerOn()
+        {
+            return "Motorbike engine on!";
+        }
     }
 }

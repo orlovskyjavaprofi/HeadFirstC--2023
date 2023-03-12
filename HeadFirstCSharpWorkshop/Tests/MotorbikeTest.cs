@@ -18,5 +18,11 @@ namespace HeadFirstCSharpWorkshop.Tests
         {
             Assert.NotNull(motorBikeObj);
         }
+
+        [Test]
+        public void powerEngineOnMotorBikeTest()
+        {
+            Assert.AreEqual("Motorbike engine on!",motorBikeObj.setEnginePowerOn());
+        }
     }
 }
