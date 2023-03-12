@@ -31,15 +31,17 @@ namespace HeadFirstCSharpWorkshop.Tests
         [TestCase("Motorbike engine on!")]
         public void setEnginePowerMotorBikeOnTest(string expectedMessage)
         {
+            IDriveable motorBikeDrivableObj = motorBike;
+            string motorBikeEngineMessage = motorBikeDrivableObj.setEnginePowerOn();
 
-            string motorBikeEngineMessage = motorBike.setEnginePowerOn();
             Assert.AreEqual(expectedMessage, motorBikeEngineMessage);
         }
 
         [TestCase("Car engine on!")]
         public void setEnginePowerCarOnTest(string expectedMessage)
         {
-            string carEngineMessage = car.setEnginePowerOn();
+            IDriveable carDrivableObj = car;
+            string carEngineMessage = carDrivableObj.setEnginePowerOn();
             Assert.AreEqual(expectedMessage, carEngineMessage);
         }
     }
