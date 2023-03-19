@@ -24,7 +24,23 @@ namespace HeadFirstCSharpWorkshop.Tests
             Assert.NotNull(chapter8Obj);
         }
 
-     
+        [Test]
+        public void getWelcomeTextFromBankTest()
+        {
+            Bank bankObj = new Bank();
+            Assert.AreEqual("Welcome to the Bank!", bankObj.getWelcomeMessage());
+        }
+
+        [Test]
+        public void createManyBankClientsTest()
+        {
+            Bank bankObj = new Bank();
+            BankClient bankClient1 = new BankClient();
+            BankClient bankClient2 = new BankClient();
+            bankObj.addBankClient(bankClient1);
+            bankObj.addBankClient(bankClient2);
+            Assert.AreEqual(2, bankObj.getAmountOfClients());
+        }
     }
 }
 
