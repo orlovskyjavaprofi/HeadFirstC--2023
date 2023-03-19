@@ -10,5 +10,6 @@ namespace HeadFirstCSharpWorkshop.Code
     {
         public bool addBankClient(BankClient newBankClient);
         public int getAmountOfClients();
+        public String getWelcomeMessage();
     }
 }

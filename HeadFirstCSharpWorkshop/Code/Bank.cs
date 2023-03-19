@@ -9,13 +9,14 @@ namespace HeadFirstCSharpWorkshop.Code
     public class Bank : IBankable
     {
         private List<BankClient> listOfBankClients;
-        
+        private String welcomeText;
         public Bank()
         {
-           listOfBankClients = new List<BankClient>();
+            setWelcomeMessage();
+            listOfBankClients = new List<BankClient>();
         }
 
-       public bool addBankClient(BankClient newBankClient)
+        public bool addBankClient(BankClient newBankClient)
         {
             bool result = false;
 
@@ -32,7 +33,7 @@ namespace HeadFirstCSharpWorkshop.Code
         {
             int result = 0;
 
-            if(this.getListOfBankClients().Count > 0)
+            if (this.getListOfBankClients().Count > 0)
             {
                 result = this.getListOfBankClients().Count;
             }
@@ -45,6 +46,17 @@ namespace HeadFirstCSharpWorkshop.Code
         {
             return this.listOfBankClients;
         }
+
+        public String getWelcomeMessage()
+        {
+            return this.welcomeText;
+        }
+
+        private void setWelcomeMessage()
+        {
+           welcomeText = "Welcome to the Bank!";
+        }
+
 
     }
 }

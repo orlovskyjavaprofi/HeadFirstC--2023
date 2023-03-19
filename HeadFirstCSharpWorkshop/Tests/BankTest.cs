@@ -47,5 +47,12 @@ namespace HeadFirstCSharpWorkshop.Tests
 
             Assert.AreEqual(5, bankObj.getAmountOfClients());
         }
+
+        [Test]
+        public void testIfBankCanProduceAWelcomeMessage()
+        {
+            Bank bankObj = new Bank();
+            Assert.AreEqual("Welcome to the Bank!", bankObj.getWelcomeMessage());
+        }
     }
 }
