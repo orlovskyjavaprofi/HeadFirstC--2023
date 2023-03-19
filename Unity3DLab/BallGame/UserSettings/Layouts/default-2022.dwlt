@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 827.2
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 91
+  controlID: 96
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 57
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 20
+  controlID: 56
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,8 +219,8 @@ MonoBehaviour:
     y: 518.4
     width: 1113.6
     height: 258.8
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 22}
@@ -484,8 +484,8 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 329
-    splitterInitialOffset: 158.4
+    ID: 122
+    splitterInitialOffset: 156.8
     currentActiveSplitter: -1
     realSizes:
     - 89.6
@@ -568,7 +568,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.2973555
+      duration: 0.1872338
       messages: 
       output: 
       stacktrace: 
@@ -584,7 +584,7 @@ MonoBehaviour:
       name: EditorTests.dll
       fullName: L:/ProgrammingStuff/C#/HeadFirstCSharp2023/CODE/HeadFirstC--2023/Unity3DLab/BallGame/Library/ScriptAssemblies/EditorTests.dll
       resultStatus: 1
-      duration: 0.1866133
+      duration: 0.1233589
       messages: 
       output: 
       stacktrace: 
@@ -600,7 +600,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.1813172
+      duration: 0.1212874
       messages: 
       output: 
       stacktrace: 
@@ -616,7 +616,7 @@ MonoBehaviour:
       name: Tests
       fullName: BallGame.Tests
       resultStatus: 1
-      duration: 0.1781277
+      duration: 0.1203972
       messages: 
       output: 
       stacktrace: 
@@ -632,7 +632,7 @@ MonoBehaviour:
       name: OneBallBehaviourTest
       fullName: BallGame.Tests.OneBallBehaviourTest
       resultStatus: 1
-      duration: 0.1715619
+      duration: 0.0194905
       messages: 
       output: 
       stacktrace: 
@@ -648,7 +648,7 @@ MonoBehaviour:
       name: checkIfDegreesPerSecondIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfDegreesPerSecondIsInitiated
       resultStatus: 1
-      duration: 0.0804036
+      duration: 0.0120907
       messages: 
       output: 
       stacktrace: 
@@ -665,7 +665,7 @@ MonoBehaviour:
       name: checkIfOneBallBehaviourObjCanBeCreatedTest
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest
       resultStatus: 1
-      duration: 0.0129115
+      duration: 0.0005232
       messages: 
       output: 
       stacktrace: 
@@ -682,7 +682,7 @@ MonoBehaviour:
       name: checkIfXRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfXRotationIsInitiated
       resultStatus: 1
-      duration: 0.0009954
+      duration: 0.0005168
       messages: 
       output: 
       stacktrace: 
@@ -699,7 +699,7 @@ MonoBehaviour:
       name: checkIfYRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfYRotationIsInitiated
       resultStatus: 1
-      duration: 0.0011064
+      duration: 0.000504
       messages: 
       output: 
       stacktrace: 
@@ -716,7 +716,7 @@ MonoBehaviour:
       name: checkIfZRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfZRotationIsInitiated
       resultStatus: 1
-      duration: 0.0008038
+      duration: 0.0004713
       messages: 
       output: 
       stacktrace: 
@@ -728,13 +728,63 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.OneBallBehaviourTest][suite]
-    m_ResultText: EditorTests.dll (0,187s)
+    - id: 1007
+      uniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+      name: ScoreBoardTest
+      fullName: BallGame.Tests.ScoreBoardTest
+      resultStatus: 1
+      duration: 0.1126205
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: EditorTests.dll/BallGame/[EditorTests][BallGame.Tests][suite]
+    - id: 1008
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfScoreBoardCanBeCreated]
+      name: checkIfScoreBoardCanBeCreated
+      fullName: BallGame.Tests.ScoreBoardTest.checkIfScoreBoardCanBeCreated
+      resultStatus: 1
+      duration: 0.0527203
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+    - id: 1009
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfScoreCanBeCounted]
+      name: checkIfScoreCanBeCounted
+      fullName: BallGame.Tests.ScoreBoardTest.checkIfScoreCanBeCounted
+      resultStatus: 1
+      duration: 0.0599994
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+    m_ResultText: checkIfScoreCanBeCounted (0,060s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 74}
-      m_SelectedIDs: be413a11
-      m_LastClickedID: 289030590
-      m_ExpandedIDs: dd106e848bddd9877fc0388b95a1f28b3fd4c58df5e535964a3989a0c75d84b1c1c181c91520f8dc00342be2e557abf7be413a11e98ff9244fe3033bb9bcc2421f33c3436edb724c5620147c03ce867fffffff7f
+      scrollPos: {x: 0, y: 122}
+      m_SelectedIDs: 6cd2d5bf
+      m_LastClickedID: -1076506004
+      m_ExpandedIDs: dd106e848bddd9877fc0388b95a1f28b3fd4c58df5e535964a3989a0a1c39da4c75d84b1c1c181c91520f8dc00342be2e557abf7be413a11e98ff9244fe3033bb9bcc2421f33c3435df955476edb724c5620147c03ce867fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -856,7 +906,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7aab0300
     m_LastClickedID: 240506
-    m_ExpandedIDs: 0000000000590000025900000459000006590000085900000a590000
+    m_ExpandedIDs: 00000000085900000a5900000c5900000e5900001059000012590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -881,10 +931,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 79.39996}
+    scrollPos: {x: 0, y: 111.39996}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff0000000000590000025900000459000006590000085900000a590000
+    m_ExpandedIDs: ffffffff00000000085900000a5900000c5900000e5900001059000012590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1026,7 +1076,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 42f8ffff2cfbffff
+      m_ExpandedIDs: def4ffff28f6ffff7ef7ffff4af9ffffbcf9ffff14fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1367,9 +1417,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.677543, y: 0.9074744, z: -6.0862455}
+    m_Target: {x: 0, y: 1, z: -10}
     speed: 2
-    m_Value: {x: 5.677543, y: 0.9074744, z: -6.0862455}
+    m_Value: {x: 0, y: 1, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1415,13 +1465,13 @@ MonoBehaviour:
     m_GridAxis: 0
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.054196656, y: 0.47886193, z: -0.029636376, w: -0.8757231}
+    m_Target: {x: -0.062103502, y: -0.87714654, z: 0.11807541, w: -0.46133775}
     speed: 2
-    m_Value: {x: -0.054284904, y: 0.47622895, z: -0.029473426, w: -0.87714905}
+    m_Value: {x: -0.06210297, y: -0.87713903, z: 0.118074395, w: -0.46133378}
   m_Size:
-    m_Target: 8.268602
+    m_Target: 12.124355
     speed: 2
-    m_Value: 7.912538
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 0
     speed: 2

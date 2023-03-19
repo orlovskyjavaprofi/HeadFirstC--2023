@@ -6,9 +6,11 @@ using UnityEngine;
 public class OneBallBehaviourController : MonoBehaviour
 {
     private OneBallBehaviour oneBallBehaviour;
+    private ScoreBoard scoreBoard;
     public OneBallBehaviourController()
     {
         oneBallBehaviour = new OneBallBehaviour();
+        scoreBoard = new ScoreBoard();
     }
     void Start()
     {
@@ -18,6 +20,13 @@ public class OneBallBehaviourController : MonoBehaviour
     void Update()
     {
         this.rotateBallAround();
+    }
+
+    void OnMouseDown()
+    {
+        GameController controller = Camera.main.GetComponent<GameController>();
+        scoreBoard.ClickedOnBall();
+        Destroy(gameObject);
     }
 
     private void rotateBallAround()
