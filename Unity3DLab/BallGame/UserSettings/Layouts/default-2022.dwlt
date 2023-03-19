@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 36.8
-    width: 1536
-    height: 827.2
+    x: 3.2
+    y: 40
+    width: 1529.6
+    height: 820.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Test Runner
   m_RootView: {fileID: 10}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -38,16 +38,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1536
-    y: 0
-    width: 1344
-    height: 840
+    x: 1532
+    y: -4
+    width: 1352
+    height: 848
   m_ShowMode: 0
   m_Title: Game
   m_RootView: {fileID: 4}
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -65,10 +65,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1344
-    height: 840
-  m_MinSize: {x: 100, y: 121}
-  m_MaxSize: {x: 4000, y: 4021}
+    width: 1352
+    height: 848
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -92,12 +92,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1344
-    height: 840
+    width: 1352
+    height: 848
   m_MinSize: {x: 100, y: 121}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 96
+  controlID: 105
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,9 +114,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 517.6
-    width: 422.40002
-    height: 259.60004
+    y: 513.6
+    width: 420.79993
+    height: 257.2
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 18}
@@ -141,14 +141,14 @@ MonoBehaviour:
   - {fileID: 5}
   m_Position:
     serializedVersion: 2
-    x: 1113.6
+    x: 1108.8
     y: 0
-    width: 422.40002
-    height: 777.2
+    width: 420.79993
+    height: 770.8
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 57
+  controlID: 66
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,12 +168,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1536
-    height: 777.2
+    width: 1529.6
+    height: 770.8
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 56
+  controlID: 28
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -191,10 +191,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 422.40002
-    height: 517.6
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 420.79993
+    height: 513.6
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -216,18 +216,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 518.4
-    width: 1113.6
-    height: 258.8
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    y: 515.2
+    width: 1108.8
+    height: 255.59998
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 22}
   - {fileID: 20}
   - {fileID: 16}
   m_Selected: 2
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,8 +248,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
-    height: 827.2
+    width: 1529.6
+    height: 820.8
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -273,7 +273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1536
+    width: 1529.6
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -294,8 +294,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 807.2
-    width: 1536
+    y: 800.8
+    width: 1529.6
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -318,12 +318,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1113.6
-    height: 777.2
+    width: 1108.8
+    height: 770.8
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 21
+  controlID: 29
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,10 +341,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1113.6
-    height: 518.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 1108.8
+    height: 515.2
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -371,10 +371,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1536
-    y: 0
-    width: 1344
-    height: 819
+    x: 1532
+    y: -4
+    width: 1352
+    height: 827
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1680, y: 997.5}
+  m_TargetSize: {x: 1690, y: 1007.5}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -406,10 +406,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -672
-    m_HBaseRangeMax: 672
-    m_VBaseRangeMin: -399
-    m_VBaseRangeMax: 399
+    m_HBaseRangeMin: -676
+    m_HBaseRangeMax: 676
+    m_VBaseRangeMin: -403
+    m_VBaseRangeMax: 403
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -427,23 +427,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1344
-      height: 798
+      width: 1352
+      height: 806
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 672, y: 399}
+    m_Translation: {x: 676, y: 403}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -672
-      y: -399
-      width: 1344
-      height: 798
+      x: -676
+      y: -403
+      width: 1352
+      height: 806
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1680, y: 1023.75}
+  m_LastWindowPixelSize: {x: 1690, y: 1033.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -469,10 +469,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: 3.2
     y: 585.60004
-    width: 1112.6
-    height: 237.79999
+    width: 1107.8
+    height: 234.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -484,12 +484,12 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 122
+    ID: 8927
     splitterInitialOffset: 156.8
     currentActiveSplitter: -1
     realSizes:
-    - 89.6
-    - 78.4
+    - 87.2
+    - 76.8
     relativeSizes:
     - 0.5333333
     - 0.4666667
@@ -499,7 +499,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 168
+    lastTotalSize: 164
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -568,7 +568,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.1872338
+      duration: 0.6002848
       messages: 
       output: 
       stacktrace: 
@@ -584,7 +584,7 @@ MonoBehaviour:
       name: EditorTests.dll
       fullName: L:/ProgrammingStuff/C#/HeadFirstCSharp2023/CODE/HeadFirstC--2023/Unity3DLab/BallGame/Library/ScriptAssemblies/EditorTests.dll
       resultStatus: 1
-      duration: 0.1233589
+      duration: 0.5150259
       messages: 
       output: 
       stacktrace: 
@@ -600,7 +600,7 @@ MonoBehaviour:
       name: BallGame
       fullName: BallGame
       resultStatus: 1
-      duration: 0.1212874
+      duration: 0.4338875
       messages: 
       output: 
       stacktrace: 
@@ -616,7 +616,7 @@ MonoBehaviour:
       name: Tests
       fullName: BallGame.Tests
       resultStatus: 1
-      duration: 0.1203972
+      duration: 0.3343746
       messages: 
       output: 
       stacktrace: 
@@ -632,7 +632,7 @@ MonoBehaviour:
       name: OneBallBehaviourTest
       fullName: BallGame.Tests.OneBallBehaviourTest
       resultStatus: 1
-      duration: 0.0194905
+      duration: 0.2047198
       messages: 
       output: 
       stacktrace: 
@@ -648,7 +648,7 @@ MonoBehaviour:
       name: checkIfDegreesPerSecondIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfDegreesPerSecondIsInitiated
       resultStatus: 1
-      duration: 0.0120907
+      duration: 0.0637702
       messages: 
       output: 
       stacktrace: 
@@ -665,7 +665,7 @@ MonoBehaviour:
       name: checkIfOneBallBehaviourObjCanBeCreatedTest
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfOneBallBehaviourObjCanBeCreatedTest
       resultStatus: 1
-      duration: 0.0005232
+      duration: 0.009084
       messages: 
       output: 
       stacktrace: 
@@ -682,7 +682,7 @@ MonoBehaviour:
       name: checkIfXRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfXRotationIsInitiated
       resultStatus: 1
-      duration: 0.0005168
+      duration: 0.0007822
       messages: 
       output: 
       stacktrace: 
@@ -699,7 +699,7 @@ MonoBehaviour:
       name: checkIfYRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfYRotationIsInitiated
       resultStatus: 1
-      duration: 0.000504
+      duration: 0.0006399
       messages: 
       output: 
       stacktrace: 
@@ -716,7 +716,7 @@ MonoBehaviour:
       name: checkIfZRotationIsInitiated
       fullName: BallGame.Tests.OneBallBehaviourTest.checkIfZRotationIsInitiated
       resultStatus: 1
-      duration: 0.0004713
+      duration: 0.0006972
       messages: 
       output: 
       stacktrace: 
@@ -733,7 +733,7 @@ MonoBehaviour:
       name: ScoreBoardTest
       fullName: BallGame.Tests.ScoreBoardTest
       resultStatus: 1
-      duration: 0.1126205
+      duration: 0.0270429
       messages: 
       output: 
       stacktrace: 
@@ -744,12 +744,63 @@ MonoBehaviour:
       categories: []
       parentId: 1011
       parentUniqueId: EditorTests.dll/BallGame/[EditorTests][BallGame.Tests][suite]
+    - id: 1010
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfInitialNumberOfBallsCorrect]
+      name: checkIfInitialNumberOfBallsCorrect
+      fullName: BallGame.Tests.ScoreBoardTest.checkIfInitialNumberOfBallsCorrect
+      resultStatus: 1
+      duration: 0.002267
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+    - id: 1011
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfMaxBallsIsSetUp]
+      name: checkIfMaxBallsIsSetUp
+      fullName: BallGame.Tests.ScoreBoardTest.checkIfMaxBallsIsSetUp
+      resultStatus: 1
+      duration: 0.0005085
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+    - id: 1012
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfNumberOfBallsCanBeRaised]
+      name: checkIfNumberOfBallsCanBeRaised
+      fullName: BallGame.Tests.ScoreBoardTest.checkIfNumberOfBallsCanBeRaised
+      resultStatus: 1
+      duration: 0.0004713
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
     - id: 1008
       uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkIfScoreBoardCanBeCreated]
       name: checkIfScoreBoardCanBeCreated
       fullName: BallGame.Tests.ScoreBoardTest.checkIfScoreBoardCanBeCreated
       resultStatus: 1
-      duration: 0.0527203
+      duration: 0.0008575
       messages: 
       output: 
       stacktrace: 
@@ -766,7 +817,7 @@ MonoBehaviour:
       name: checkIfScoreCanBeCounted
       fullName: BallGame.Tests.ScoreBoardTest.checkIfScoreCanBeCounted
       resultStatus: 1
-      duration: 0.0599994
+      duration: 0.000989
       messages: 
       output: 
       stacktrace: 
@@ -778,12 +829,29 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1007
       parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
-    m_ResultText: checkIfScoreCanBeCounted (0,060s)
+    - id: 1013
+      uniqueId: EditorTests.dll/BallGame/Tests/ScoreBoardTest/[EditorTests][BallGame.Tests.ScoreBoardTest.checkThatInitialAmountOfBallsCanBeSet]
+      name: checkThatInitialAmountOfBallsCanBeSet
+      fullName: BallGame.Tests.ScoreBoardTest.checkThatInitialAmountOfBallsCanBeSet
+      resultStatus: 1
+      duration: 0.0011538
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: EditorTests.dll/BallGame/Tests/[EditorTests][BallGame.Tests.ScoreBoardTest][suite]
+    m_ResultText: BallGame (0,600s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 122}
-      m_SelectedIDs: 6cd2d5bf
-      m_LastClickedID: -1076506004
+      scrollPos: {x: 0, y: 127}
+      m_SelectedIDs: 7fc0388b
+      m_LastClickedID: -1959214977
       m_ExpandedIDs: dd106e848bddd9877fc0388b95a1f28b3fd4c58df5e535964a3989a0a1c39da4c75d84b1c1c181c91520f8dc00342be2e557abf7be413a11e98ff9244fe3033bb9bcc2421f33c3435df955476edb724c5620147c03ce867fffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -864,10 +932,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1113.6
-    y: 584.8
-    width: 421.40002
-    height: 238.60004
+    x: 1112
+    y: 584
+    width: 419.79993
+    height: 236.20001
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -891,7 +959,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Tests/EditorTests
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -906,7 +974,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 7aab0300
     m_LastClickedID: 240506
-    m_ExpandedIDs: 00000000085900000a5900000c5900000e5900001059000012590000
+    m_ExpandedIDs: 0000000006590000085900000a5900000c5900000e59000010590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -931,10 +999,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 111.39996}
+    scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000085900000a5900000c5900000e5900001059000012590000
+    m_ExpandedIDs: ffffffff0000000006590000085900000a5900000c5900000e59000010590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1010,10 +1078,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1113.6
-    y: 67.200005
-    width: 421.40002
-    height: 496.59998
+    x: 1112
+    y: 70.4
+    width: 419.79993
+    height: 492.59998
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1057,10 +1125,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 585.60004
-    width: 1112.6
-    height: 237.79999
+    x: 3.2
+    y: 587.2
+    width: 1107.8
+    height: 233
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1074,9 +1142,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: def4ffff28f6ffff7ef7ffff4af9ffffbcf9ffff14fbffff
+      m_SelectedIDs: 5c720000
+      m_LastClickedID: 29276
+      m_ExpandedIDs: 3c60fcfffadafcff44dbfcffa0c7feffc4c7feff82c5ffff56dcffff20fbffff166a00002e720000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1120,10 +1188,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 67.200005
-    width: 1112.6
-    height: 497.40002
+    x: 3.2
+    y: 70.4
+    width: 1107.8
+    height: 494.2
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1177,7 +1245,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -553.6, y: -497.59998}
+      snapOffset: {x: -553.6, y: -493.59998}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: unity-search-toolbar
@@ -1417,9 +1485,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: -10}
+    m_Target: {x: 0, y: 0.059999943, z: -8.85}
     speed: 2
-    m_Value: {x: 0, y: 1, z: -10}
+    m_Value: {x: 0, y: 0.059999943, z: -8.85}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1457,7 +1525,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1465,13 +1533,13 @@ MonoBehaviour:
     m_GridAxis: 0
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.062103502, y: -0.87714654, z: 0.11807541, w: -0.46133775}
+    m_Target: {x: -0.019504614, y: 0.01919299, z: -0.00037847445, w: -0.99963605}
     speed: 2
-    m_Value: {x: -0.06210297, y: -0.87713903, z: 0.118074395, w: -0.46133378}
+    m_Value: {x: 0.019504407, y: -0.019192787, z: 0.00037847043, w: 0.99962544}
   m_Size:
     m_Target: 12.124355
     speed: 2
-    m_Value: 12.124355
+    m_Value: 0.29634932
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1489,7 +1557,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.059210204, y: 0.18665102, z: -0.0112701515, w: -0.98057985}
+  m_LastSceneViewRotation: {x: -0.019504614, y: 0.01919299, z: -0.00037847445, w: -0.99963605}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1516,10 +1584,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 585.60004
-    width: 1112.6
-    height: 237.79999
+    x: 3.2
+    y: 587.2
+    width: 1107.8
+    height: 233
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

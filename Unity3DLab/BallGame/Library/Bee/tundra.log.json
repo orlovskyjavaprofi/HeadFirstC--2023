@@ -346,8 +346,8 @@
 {"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Scripts.dll (+2 others)","displayName":"Csc Scripts","index":126}
 {"msg":"noderesult","processed_node_count":336,"number_of_nodes_ever_queued":343,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Scripts.dll (+2 others)","index":126,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\Scripts.dll"}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Scripts.dll","index":300,"changes":[{"key":"FileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Scripts.dll"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Scripts.dll","displayName":"Copying Scripts.dll","index":300}
 {"msg":"inputSignatureChanged","annotation":"CopyFiles Library/ScriptAssemblies/Scripts.pdb","index":301,"changes":[{"key":"FileList","value":["Library\\Bee\\artifacts\\1900b0aE.dag\\Scripts.pdb"],"oldvalue":[],"dependency":"explicit"}]}
+{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Scripts.dll","displayName":"Copying Scripts.dll","index":300}
 {"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/Scripts.pdb","displayName":"Copying Scripts.pdb","index":301}
-{"msg":"noderesult","processed_node_count":340,"number_of_nodes_ever_queued":343,"annotation":"CopyFiles Library/ScriptAssemblies/Scripts.dll","index":300,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Scripts.dll"}
-{"msg":"noderesult","processed_node_count":341,"number_of_nodes_ever_queued":343,"annotation":"CopyFiles Library/ScriptAssemblies/Scripts.pdb","index":301,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Scripts.pdb"}
+{"msg":"noderesult","processed_node_count":340,"number_of_nodes_ever_queued":343,"annotation":"CopyFiles Library/ScriptAssemblies/Scripts.pdb","index":301,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Scripts.pdb"}
+{"msg":"noderesult","processed_node_count":341,"number_of_nodes_ever_queued":343,"annotation":"CopyFiles Library/ScriptAssemblies/Scripts.dll","index":300,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\Scripts.dll"}
