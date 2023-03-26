@@ -14,7 +14,7 @@ namespace HeadFirstCSharpWorkshop.Tests
         [SetUp]
         public void setup()
         {
-            trainObj = new Train("Train Express");
+            trainObj = new Train("Train Express", "88950WPF");
         }
 
         [Test]
@@ -28,6 +28,19 @@ namespace HeadFirstCSharpWorkshop.Tests
         {
             Assert.AreEqual("Train Express", trainObj.getTrainName());
         }
+
+        [Test]
+        public void checkIfTrainNumberCanBeSet()
+        {
+            Assert.AreEqual("88950WPF", trainObj.getTrainNumber());
+        }
+
+        [Test]
+        public void checkIfTrainStarted()
+        {
+            Assert.AreEqual("Train Express 88950WPF started!", trainObj.startTrain());
+        }
+    
     }
 
 }

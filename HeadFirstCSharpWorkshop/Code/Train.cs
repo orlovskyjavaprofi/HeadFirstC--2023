@@ -9,9 +9,11 @@ namespace HeadFirstCSharpWorkshop.Code
     public class Train
     {
         private String trainName;
-        public Train(String inputNameOfTrain)
+        private String trainNumber;
+        public Train(String inputNameOfTrain, string trainNumber)
         {
             setTrainName(inputNameOfTrain);
+            setTrainNumber(trainNumber);
         }
 
         private void setTrainName(String inputName)
@@ -19,9 +21,24 @@ namespace HeadFirstCSharpWorkshop.Code
             trainName = inputName;
         }
 
+        private void setTrainNumber(String inputNumber)
+        {
+            trainNumber = inputNumber;
+        }
+
         public String getTrainName()
         {
             return trainName;
+        }
+
+        public String getTrainNumber()
+        {
+            return trainNumber;
+        }
+
+        public String startTrain()
+        {
+            return getTrainName() +" "+ getTrainNumber() + " "+"started!";
         }
     }
 }
