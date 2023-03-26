@@ -8,5 +8,20 @@ namespace HeadFirstCSharpWorkshop.Code
 {
     public class Train
     {
+        private String trainName;
+        public Train(String inputNameOfTrain)
+        {
+            setTrainName(inputNameOfTrain);
+        }
+
+        private void setTrainName(String inputName)
+        {
+            trainName = inputName;
+        }
+
+        public String getTrainName()
+        {
+            return trainName;
+        }
     }
 }

@@ -14,7 +14,7 @@ namespace HeadFirstCSharpWorkshop.Tests
         [SetUp]
         public void setup()
         {
-            trainObj = new Train();
+            trainObj = new Train("Train Express");
         }
 
         [Test]
@@ -22,5 +22,12 @@ namespace HeadFirstCSharpWorkshop.Tests
         {
             Assert.NotNull(trainObj);
         }
+
+        [Test]
+        public void checkIfTrainNameCanBeSet()
+        {
+            Assert.AreEqual("Train Express", trainObj.getTrainName());
+        }
     }
+
 }
