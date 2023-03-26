@@ -15,7 +15,8 @@ namespace HeadFirstCSharpWorkshop.Code
 
             Thread train1Thread = new Thread(new ThreadStart(startTrain1Thread));
             Thread train2Thread = new Thread(new ThreadStart(startTrain2Thread));
-
+            
+            mainRailwayStationThread.Start();
             train1Thread.Start();
             train2Thread.Start();
             Console.ReadKey();
