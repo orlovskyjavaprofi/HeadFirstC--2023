@@ -11,10 +11,12 @@ namespace HeadFirstCSharpWorkshop.Tests
     {
         private Train trainObj;
 
+
         [SetUp]
         public void setup()
         {
             trainObj = new Train("Train Express", "88950WPF");
+            
         }
 
         [Test]
@@ -40,7 +42,7 @@ namespace HeadFirstCSharpWorkshop.Tests
         {
             Assert.AreEqual("Train Express 88950WPF started!", trainObj.startTrain());
         }
-    
+
     }
 
 }

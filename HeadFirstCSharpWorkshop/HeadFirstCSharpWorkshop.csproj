@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
 <GenerateProgramFile>false</GenerateProgramFile>
     <IsPackable>false</IsPackable>
+    <StartupObject>HeadFirstCSharpWorkshop.Code.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

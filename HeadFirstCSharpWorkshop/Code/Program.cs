@@ -15,6 +15,7 @@ namespace HeadFirstCSharpWorkshop.Code
         {
             Program programObj = new Program();
             Console.WriteLine(programObj.Message);
+            TrainStation.startTrainStationOps();
         }
         public String OutputHelleoWorld()
         {
